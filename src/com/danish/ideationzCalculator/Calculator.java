@@ -2,7 +2,7 @@ package com.danish.ideationzCalculator;
 
 import java.util.Scanner;
 
-public class Calculator extends CollectData {
+public class Calculator  {
 	public static void main(String[] args) {
 		double output;
     	CollectData data=new CollectData();
