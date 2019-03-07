@@ -33,6 +33,9 @@ public class Calculator extends CollectData {
         	System.out.println("can not divid by 0");
         	
         }
+        else if(data.getOperator()=='/' && data.getNum1()==0){
+        	System.out.println("0");
+        }
         
         else {
         switch(data.getOperator())
